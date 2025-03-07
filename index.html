@@ -20,7 +20,7 @@
             margin: 0 auto;
         }
 
-        /* Navbar */
+        
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -56,7 +56,7 @@
             color: #53b5df;
         }
 
-        /* About Section */
+        
         .about-section {
             display: flex;
             align-items: center;
@@ -136,7 +136,7 @@
             opacity: 1;
         }
 
-        /* Skills Section */
+    
         #skills {
             text-align: center;
             margin: 50px auto;
@@ -228,12 +228,35 @@
                 width: 90%;
             }
         }
+        .centered-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.centered-link a {
+    color: #d896ff; 
+        font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #d896ff;
+    transition: all 0.3s ease;
+}
+
+.centered-link a:hover {
+    color: #ffffff;
+    background-color: #6a0dad; 
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
     </style>
 </head>
 
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">BISMA AZAM</div>
         <ul class="nav-links">
@@ -256,7 +279,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
     <section class="projects-section" id="projects">
         <h2>My Projects</h2>
         <div class="projects-container">
@@ -267,7 +289,6 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
         <h2>My Skills</h2>
         <table>
@@ -277,7 +298,7 @@
         </table>
     </section>
 
-    <!-- Contact Section -->
+    
     <section id="contact">
         <h2>Contact Me</h2>
         <div class="form-container">
@@ -289,6 +310,11 @@
             </form>
         </div>
     </section>
+    <h2 style="text-align: center;">Github Link</h2>
+<div class="centered-link">
+    <a href="https://bisma-azam.github.io/samz-tech-2/" target="_blank">Visit My PORTFOLIO</a>
+</div>
+
 
 </body>
 </html>
